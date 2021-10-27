@@ -1,0 +1,42 @@
+.userInformation {
+    width: min(616px, 100%);
+    margin: 0 auto;
+    display: none;
+}
+.visible {
+    display: block;
+}
+.userInformation__personal {
+    padding-top: 30px;
+}
+.userInformation__children {
+    padding-top: 60px;
+}
+.userInformation__title {
+    margin-bottom: 20px;
+}
+.userInformation__title h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.userInformation__user {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+}
+.userInformation__list {
+    list-style: none;
+}
+.userInformation__list li:not(:last-child) {
+    margin-bottom: 20px;
+}
+.userInformation__child {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}

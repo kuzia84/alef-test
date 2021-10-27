@@ -1,0 +1,71 @@
+.userForm {
+    width: min(616px, 100%);
+    margin: 0 auto;
+    display: none;
+}
+.visible {
+    display: block;
+}
+.userForm__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    min-height: 44px;
+}
+.userForm__title h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.userForm__addBtn {
+    border: 2px solid #01a7fd;
+    padding: 10px 20px;
+    height: 44px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 24px;
+    color: #01a7fd;
+}
+.addBtnIcon {
+    margin-right: 4px;
+    height: 24px;
+}
+.userForm__personal {
+    padding-top: 20px;
+}
+.userForm__childrens {
+    padding-top: 33px;
+}
+.userForm__row {
+    display: flex;
+    justify-content: space-between;
+}
+.userForm__col {
+    flex: 1 1 auto;
+    max-width: 260px;
+}
+.userForm__deleteBtn {
+    font-size: 14px;
+    line-height: 24px;
+    color: #01a7fd;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.userForm__submitBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #01a7fd;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
